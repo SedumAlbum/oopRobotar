@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblTid = new System.Windows.Forms.Label();
-            this.btnTid = new System.Windows.Forms.Button();
+            this.tmrManad = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lblTid
@@ -43,22 +44,16 @@
             this.lblTid.TabIndex = 0;
             this.lblTid.Text = "Vi börjar med en robot som samlar.";
             // 
-            // btnTid
+            // tmrManad
             // 
-            this.btnTid.Location = new System.Drawing.Point(706, 3);
-            this.btnTid.Name = "btnTid";
-            this.btnTid.Size = new System.Drawing.Size(120, 38);
-            this.btnTid.TabIndex = 1;
-            this.btnTid.Text = "Tiden går";
-            this.btnTid.UseVisualStyleBackColor = true;
-            this.btnTid.Click += new System.EventHandler(this.btnTid_Click);
+            this.tmrManad.Interval = 400;
+            this.tmrManad.Tick += new System.EventHandler(this.tmrManad_Tick);
             // 
             // frmTid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.btnTid);
             this.Controls.Add(this.lblTid);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -72,6 +67,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblTid;
-        private System.Windows.Forms.Button btnTid;
+        private System.Windows.Forms.Timer tmrManad;
     }
 }

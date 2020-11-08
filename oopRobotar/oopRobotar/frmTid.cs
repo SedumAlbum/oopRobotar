@@ -19,18 +19,23 @@ namespace oopRobotar
             InitializeComponent();            
             m = new MaskinPark();
             m.add(new Robot());
+            tmrManad.Start();
         }
 
-        private void btnTid_Click(object sender, EventArgs e)
+        private void tmrManad_Tick(object sender, EventArgs e)
         {
-            if(!Globals.klar)
+            if (!Globals.klar)
             {
                 passerat++;
                 m.tick();
                 lblTid.Text += "\nMånad " + passerat + " " + m.dennaManad();
             }
             else
+            {
                 lblTid.Text += "\nDet tog alltså " + passerat + " månader.";
+                tmrManad.Stop();
+            }
+
         }
     }
 }

@@ -55,7 +55,7 @@
             // btnGo
             // 
             this.btnGo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGo.Location = new System.Drawing.Point(554, 59);
+            this.btnGo.Location = new System.Drawing.Point(579, 33);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(144, 52);
             this.btnGo.TabIndex = 1;
