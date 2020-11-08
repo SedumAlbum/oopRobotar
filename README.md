@@ -3,7 +3,7 @@ OOPlösning på robotproblemet
 
 Problemet:
 Du jobbar på Esrange, och har fått i uppdrag av din chef att räkna ut hur många månader det tar att komma upp de 200 robotar som behövs för att bygga en koloni på Månen.
-Du startar med en robot (den enda vi har råd att skcika dit).
+Du startar med en robot (den enda vi har råd att skicka dit).
 Den samlar material i två månader.
 Sedan bygger den kopior av sig själv, en i månaden i tre månader.
 Efter det börjar den om med samlandet.
