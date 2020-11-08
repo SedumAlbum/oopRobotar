@@ -1,0 +1,11 @@
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\bin\Debug\oopRobotar.exe.config
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\bin\Debug\oopRobotar.exe
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\bin\Debug\oopRobotar.pdb
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.csprojAssemblyReference.cache
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.frmMain.resources
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.Properties.Resources.resources
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.csproj.GenerateResource.cache
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.csproj.CoreCompileInputs.cache
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.exe
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.pdb
+C:\Users\erikl\Desktop\Gitprojekt\oopRobotar\oopRobotar\obj\Debug\oopRobotar.frmTid.resources
